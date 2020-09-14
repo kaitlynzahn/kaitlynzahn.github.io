@@ -1,0 +1,70 @@
+/*element selector for style for entire webpage*/
+body {
+    background-image: url(abstract.jpg);
+}
+
+/*create nav bar, no bullet points*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #E6B0AA;
+    width: 100%;
+}
+
+li {
+        float: left;
+}
+
+li a {
+    display: block;
+    padding: 25px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*ID selector for styling nav bar*/
+#navID {
+    top: 0;
+    position: fixed;
+    margin: 0px;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+/*style for when user hovers over choice*/
+li a:hover {
+    background-color: #D98880;
+}
+
+/*class for style of image*/
+.image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    max-width: 40%;
+    border: 2px solid black;
+}
+
+/*element selector for style of heading*/
+h1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    color: #D98880;
+    font-family: monospace;
+}
+
+/*class for style of paragraph*/
+.paragraph {
+    text-align: center;
+    font-size: 20px;
+    color: #424949;
+    font-family: monospace;
+}
