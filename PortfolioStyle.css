@@ -9,7 +9,7 @@ ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #E6B0AA;
+    background-color: ##76667A ;
     width: 100%;
 }
 
@@ -36,7 +36,7 @@ li a {
 
 /*style for when user hovers over choice*/
 li a:hover {
-    background-color: #D98880;
+    background-color: ##563A5D;
 }
 
 /*class for style of image*/
@@ -57,7 +57,7 @@ h1 {
     margin-bottom: 5px;
     text-align: center;
     position: relative;
-    color: #D98880;
+    color: ##76667A ;
     font-family: monospace;
 }
 
